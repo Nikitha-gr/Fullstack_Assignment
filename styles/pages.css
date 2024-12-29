@@ -1,0 +1,68 @@
+#form {
+    width: 30%;
+    height: fit-content;
+    margin: 3rem auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    color: orchid;
+    background-color: rgb(237, 182, 236);
+    padding: 20px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.2rem;
+
+}
+
+h3 {
+    font-size: 2rem;
+}
+h4 {
+    font-size: 1.5rem;
+    color: orchid;
+}
+#form input {
+    height: 30px;
+    width: 80%;
+}
+
+select {
+    width: 75%;
+    background-color: rgb(237, 203, 236);
+
+}
+
+#submit, #logout {
+    width: 100px;
+    height: fit-content;
+    background-color: orchid;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 5px 20px;
+}
+#logout{
+    position: absolute;
+    right: 0;
+
+}
+
+#submit:hover, #logout:hover {
+    background-color: rgb(237, 182, 236);
+    transition: background-color 1s ease;
+}
+
+#footer{
+    position: absolute;
+    bottom: 0; 
+    width: 100%;
+    background-color: orchid;
+    height: 3rem;
+    color: white;
+    padding: 10px;
+    text-align: center;   
+}

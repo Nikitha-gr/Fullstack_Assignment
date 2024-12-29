@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/navbar.css" />
+    <link rel="stylesheet" href="./styles/pages.css" />
+    <title>Todos Page</title>
+  </head>
+  <body>
+    <div id="nav"></div>
+    <main>
+      <div id="user-data">
+        <h4 id="username"></h4>
+        <button id="logout">Logout</button>
+      </div>
+      <div id="add-todo">
+          <form id="form">
+            <input id="todoId" type="text" style="display: none;">
+            <label for="title">Enter Task Title</label>
+            <input id="title" type="text" placeholder="Enter Title" />
+            <label for="deadline">Select Deadline</label>
+            <input id="deadline" type="date" />
+            <label for="prority">Select Priority</label>
+            <select id="priority">
+              <option value="high">High</option>
+              <option value="medium">Medium</option>
+              <option value="low">Low</option>
+            </select>
+            <input id="submit" type="submit" value="Add Todo" />
+          </form>
+        </div>
+      <div id="todoCont"></div>
+    </main>
+    <div id="footer"></div>
+  </body>
+  <script src="./scripts/footer.js"></script>
+  <script src="./scripts/navbar.js" type="module"></script>
+  <script src="./scripts/todos.js" type="module"></script>
+</html>
